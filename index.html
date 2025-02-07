@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       body{
+        background-color: black;
+       }
+
+        form {
+            width: 30%;
+            height: 700px;
+            background-color: rgb(202, 246, 246);
+            left: 35%;
+            top: 50px;
+            position: absolute;
+            border-radius: 25px;
+            margin-left: 15px;
+            padding-left: 15px;
+            box-shadow: 10px 10px 10px rgb(31, 55, 90);
+        }
+
+
+        label {
+
+            margin-left: 15px;
+        }
+        #d{
+        width: 70%;
+        height: 200px;
+       
+        background-image: url("https://www.cocampo.com/es/es/noticias/wp-content/uploads/2024/08/precio-por-hectarea-de-monte.webp");
+        position: relative;
+        border-radius: 30px;
+        margin: auto;
+        box-shadow: 5px 5px 5px red;
+        
+            
+       
+        }
+
+       legend{
+        font-size: 20px;
+       }
+       
+
+    </style>
+</head>
+
+<body>
+    <div id="d">
+    
+    <form action="My form">
+      <h1>Orden de trabajo</h1>
+        <h5>Añade horas trabajadas y materiales</h5>
+        <fieldset>
+            <legend>Datos Generales</legend>
+           
+        <label for="fecha">Fecha</label><br> <input id="fecha" type="date"><br>
+        <label for="tec">Tecnico</label><br> <input id="tec" type="text">
+    
+    </fieldset>
+
+    <fieldset>
+        <legend>Tarea</legend>
+        <label for="h">Horas</label><br> <input id="h" type="time">Instalacion<br>
+        <input id="h" type="time">Mantenimiento
+
+    </fieldset>
+
+
+</form>
+
+</div>
+
+ 
+
+
+</body>
+
+</html>
